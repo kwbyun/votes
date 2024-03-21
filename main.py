@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-plt.rcParams['font.family'] = 'Malgun Gothic'
+#import matplotlib.pyplot as plt
+#plt.rcParams['font.family'] = 'Malgun Gothic'
 
 # 세션 상태에서 투표 데이터 관리
 if 'vote_data' not in st.session_state:
